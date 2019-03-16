@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 12345">
+<meta name="description" content="一下是代码块1234567891011121314151617181920const &amp;#123; createStore &amp;#125; = require(&apos;redux&apos;) const ADD = &apos;ADD&apos; const initState = &amp;#123;count: 0&amp;#125; // action function counter(state = initState, action) &amp;">
 <meta name="keywords" content="newtag">
 <meta property="og:type" content="article">
-<meta property="og:title" content="newtag">
+<meta property="og:title" content="你干啥呢">
 <meta property="og:url" content="http://yoursite.com/2019/03/15/newtag/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 12345">
+<meta property="og:description" content="一下是代码块1234567891011121314151617181920const &amp;#123; createStore &amp;#125; = require(&apos;redux&apos;) const ADD = &apos;ADD&apos; const initState = &amp;#123;count: 0&amp;#125; // action function counter(state = initState, action) &amp;">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-16T05:49:50.017Z">
+<meta property="og:updated_time" content="2019-03-16T07:15:03.316Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="newtag">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 12345">
+<meta name="twitter:title" content="你干啥呢">
+<meta name="twitter:description" content="一下是代码块1234567891011121314151617181920const &amp;#123; createStore &amp;#125; = require(&apos;redux&apos;) const ADD = &apos;ADD&apos; const initState = &amp;#123;count: 0&amp;#125; // action function counter(state = initState, action) &amp;">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title>newtag | Hexo</title>
+  <title>你干啥呢 | Hexo</title>
   
 
 
@@ -290,7 +290,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">newtag</h1>
+          <h1 class="post-title" itemprop="name headline">你干啥呢</h1>
         
 
         <div class="post-meta">
@@ -371,8 +371,7 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; createStore &#125; = <span class="built_in">require</span>(<span class="string">'redux'</span>)</span><br><span class="line"> <span class="keyword">const</span> ADD = <span class="string">'ADD'</span></span><br><span class="line"> <span class="keyword">const</span> initState = &#123;<span class="attr">count</span>: <span class="number">0</span>&#125;</span><br><span class="line"> <span class="comment">// action</span></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">counter</span>(<span class="params">state = initState, action</span>) </span>&#123;</span><br><span class="line">   <span class="keyword">switch</span>(action.type) &#123;</span><br><span class="line">     <span class="keyword">case</span> ADD:</span><br><span class="line">       <span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;<span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;<span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: <span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;state.count + action.payload.count&#125;</span><br><span class="line">     <span class="keyword">default</span>:</span><br><span class="line">       <span class="keyword">return</span> state</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="comment">// reducer</span></span><br><span class="line"> <span class="keyword">const</span> AddOne = <span class="function"><span class="params">()</span> =&gt;</span> (&#123;<span class="attr">type</span>: ADD, <span class="attr">payload</span>: &#123;<span class="attr">count</span>:<span class="number">1</span>&#125;&#125;)</span><br><span class="line"> <span class="comment">// store</span></span><br><span class="line"> <span class="keyword">const</span> store = createStore(counter)</span><br><span class="line"> store.subscribe(<span class="function"><span class="params">()</span> =&gt;</span> <span class="built_in">console</span>.log(store.getState()))</span><br><span class="line"> setInterval(<span class="function"><span class="params">()</span> =&gt;</span> store.dispatch(AddOne()), <span class="number">1000</span>)</span><br></pre></td></tr></table></figure>
+        <h3 id="一下是代码块"><a href="#一下是代码块" class="headerlink" title="一下是代码块"></a>一下是代码块</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; createStore &#125; = <span class="built_in">require</span>(<span class="string">'redux'</span>)</span><br><span class="line"> <span class="keyword">const</span> ADD = <span class="string">'ADD'</span></span><br><span class="line"> <span class="keyword">const</span> initState = &#123;<span class="attr">count</span>: <span class="number">0</span>&#125;</span><br><span class="line"> <span class="comment">// action</span></span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">counter</span>(<span class="params">state = initState, action</span>) </span>&#123;</span><br><span class="line">   <span class="keyword">switch</span>(action.type) &#123;</span><br><span class="line">     <span class="keyword">case</span> ADD:</span><br><span class="line">       <span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;<span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;<span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: <span class="keyword">return</span> &#123;...state, <span class="attr">count</span>: state.count + action.payload.count&#125;state.count + action.payload.count&#125;</span><br><span class="line">     <span class="keyword">default</span>:</span><br><span class="line">       <span class="keyword">return</span> state</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br><span class="line"> <span class="comment">// reducer</span></span><br><span class="line"> <span class="keyword">const</span> AddOne = <span class="function"><span class="params">()</span> =&gt;</span> (&#123;<span class="attr">type</span>: ADD, <span class="attr">payload</span>: &#123;<span class="attr">count</span>:<span class="number">1</span>&#125;&#125;)</span><br><span class="line"> <span class="comment">// store</span></span><br><span class="line"> <span class="keyword">const</span> store = createStore(counter)</span><br><span class="line"> store.subscribe(<span class="function"><span class="params">()</span> =&gt;</span> <span class="built_in">console</span>.log(store.getState()))</span><br><span class="line"> setInterval(<span class="function"><span class="params">()</span> =&gt;</span> store.dispatch(AddOne()), <span class="number">1000</span>)</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -466,8 +465,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -534,6 +542,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一下是代码块"><span class="nav-number">1.</span> <span class="nav-text">一下是代码块</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
