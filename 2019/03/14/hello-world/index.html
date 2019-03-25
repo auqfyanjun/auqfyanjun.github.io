@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="This is your very first post. Check">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-25T07:56:40.013Z">
+<meta property="og:updated_time" content="2019-03-25T07:58:23.142Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的第一个hexo博客">
 <meta name="twitter:description" content="This is your very first post. Check">
@@ -375,7 +375,7 @@
       
 
       
-        <h3 id="CROS中对于非简单请求会有option请求，"><a href="#CROS中对于非简单请求会有option请求，" class="headerlink" title="CROS中对于非简单请求会有option请求，"></a>CROS中对于非简单请求会有option请求，</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> app.all(<span class="string">'*'</span>, <span class="keyword">function</span> (req, res, next) &#123;</span><br><span class="line">  res.header(<span class="string">"Access-Control-Allow-Origin"</span>, <span class="string">"*"</span>)</span><br><span class="line">  res.header(<span class="string">"Access-Control-Allow-Headers"</span>, <span class="string">"Content-Type"</span>)</span><br><span class="line">  next()</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+        <h3 id="CROS中对于非简单请求会有option请求，以下是exoress中的简单设置"><a href="#CROS中对于非简单请求会有option请求，以下是exoress中的简单设置" class="headerlink" title="CROS中对于非简单请求会有option请求，以下是exoress中的简单设置"></a>CROS中对于非简单请求会有option请求，以下是exoress中的简单设置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> app.all(<span class="string">'*'</span>, <span class="keyword">function</span> (req, res, next) &#123;</span><br><span class="line">  res.header(<span class="string">"Access-Control-Allow-Origin"</span>, <span class="string">"*"</span>)</span><br><span class="line">  res.header(<span class="string">"Access-Control-Allow-Headers"</span>, <span class="string">"Content-Type"</span>)</span><br><span class="line">  next()</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 <h4 id="前端提交json文件就是非简单请求。后台需要设置请求头"><a href="#前端提交json文件就是非简单请求。后台需要设置请求头" class="headerlink" title="前端提交json文件就是非简单请求。后台需要设置请求头"></a>前端提交json文件就是非简单请求。后台需要设置请求头</h4><ul>
 <li>Access-Control-Allow-Origin 是指定请求的来源。值为 ‘*’ 表明任意来源都可接受</li>
 <li>Content-Type 对应值为 application/json 时 （即前端提交json数据时）需要设置  Access-Control-Allow-Headers : ‘Content-Type’</li>
@@ -557,7 +557,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#CROS中对于非简单请求会有option请求，"><span class="nav-number">1.</span> <span class="nav-text">CROS中对于非简单请求会有option请求，</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#前端提交json文件就是非简单请求。后台需要设置请求头"><span class="nav-number">1.1.</span> <span class="nav-text">前端提交json文件就是非简单请求。后台需要设置请求头</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#CROS中对于非简单请求会有option请求，以下是exoress中的简单设置"><span class="nav-number">1.</span> <span class="nav-text">CROS中对于非简单请求会有option请求，以下是exoress中的简单设置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#前端提交json文件就是非简单请求。后台需要设置请求头"><span class="nav-number">1.1.</span> <span class="nav-text">前端提交json文件就是非简单请求。后台需要设置请求头</span></a></li></ol></li></ol></div>
             
 
           </div>
