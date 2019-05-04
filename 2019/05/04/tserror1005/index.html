@@ -5,16 +5,19 @@
   
 
   
-  <title>All tags | Hexo</title>
+  <title>tserror1005 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="All tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+  <meta name="description" content="123ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,7">
+<meta property="og:type" content="article">
+<meta property="og:title" content="tserror1005">
+<meta property="og:url" content="http://yoursite.com/2019/05/04/tserror1005/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="123ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,7">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-15T07:14:12.014Z">
+<meta property="og:updated_time" content="2019-05-04T10:42:34.993Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="All tags">
+<meta name="twitter:title" content="tserror1005">
+<meta name="twitter:description" content="123ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,7">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -61,10 +64,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-tserror1005" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/tags/index.html" class="article-date">
-  <time datetime="2019-03-15T07:13:29.000Z" itemprop="datePublished">2019-03-15</time>
+    <a href="/2019/05/04/tserror1005/" class="article-date">
+  <time datetime="2019-05-04T10:40:35.000Z" itemprop="datePublished">2019-05-04</time>
 </a>
     
   </div>
@@ -75,7 +78,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      All tags
+      tserror1005
     </h1>
   
 
@@ -83,17 +86,31 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ERROR <span class="keyword">in</span> node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: <span class="string">';'</span> expected.</span><br><span class="line">node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: <span class="string">';'</span> expected.</span><br><span class="line">node_modules/rxjs/internal/types.d.ts(81,77): error TS1109: Expression expected.</span><br></pre></td></tr></table></figure>
+<p>是因为rxjs版本问题造成的</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">uninstall</span> rxjs <span class="comment">--save</span></span><br><span class="line"></span><br><span class="line">npm <span class="keyword">install</span> rxjs@<span class="number">6.3</span><span class="number">.3</span> <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+<p>然后启动项目就可以成功了</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/tags/index.html" data-id="cjv9dphiy00065sr4kq5qhsgr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/04/tserror1005/" data-id="cjv9dphj100075sr4fdct78n1" class="article-share-link">Share</a>
       
       
     </footer>
   </div>
   
     
+<nav id="article-nav">
+  
+  
+    <a href="/2019/03/31/scroll/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">scroll</div>
+    </a>
+  
+</nav>
+
   
 </article>
 
