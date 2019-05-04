@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="123ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,7">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-04T10:42:34.993Z">
+<meta property="og:updated_time" content="2019-05-04T11:04:29.805Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="tserror1005">
 <meta name="twitter:description" content="123ERROR in node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: &apos;;&apos; expected.node_modules/rxjs/internal/types.d.ts(81,7">
@@ -87,14 +87,20 @@
     <div class="article-entry" itemprop="articleBody">
       
         <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ERROR <span class="keyword">in</span> node_modules/rxjs/internal/types.d.ts(81,44): error TS1005: <span class="string">';'</span> expected.</span><br><span class="line">node_modules/rxjs/internal/types.d.ts(81,74): error TS1005: <span class="string">';'</span> expected.</span><br><span class="line">node_modules/rxjs/internal/types.d.ts(81,77): error TS1109: Expression expected.</span><br></pre></td></tr></table></figure>
-<p>是因为rxjs版本问题造成的</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">uninstall</span> rxjs <span class="comment">--save</span></span><br><span class="line"></span><br><span class="line">npm <span class="keyword">install</span> rxjs@<span class="number">6.3</span><span class="number">.3</span> <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+<!-- 是因为rxjs版本问题造成的
+
+```
+npm uninstall rxjs --save
+
+npm install rxjs@6.3.3 --save
+
+``` -->
 <p>然后启动项目就可以成功了</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/04/tserror1005/" data-id="cjv9dphj100075sr4fdct78n1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/04/tserror1005/" data-id="cjv9em1sq000be0r4739650c1" class="article-share-link">Share</a>
       
       
     </footer>
